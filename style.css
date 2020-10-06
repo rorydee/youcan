@@ -1,0 +1,138 @@
+body{
+	background-color: #d9ffff;
+	width:100%;
+	margin: 0;
+	padding: 0;
+/*	min-height: 1000px;*/
+	font-family: 'Roboto Condensed';
+	line-height: 1.1;
+}
+
+header{
+	position:relative;
+	margin-top:0px;
+	left: 0px;
+	right: 0px;
+	width:100%;
+}
+
+.navbar{
+	margin-top: 0px;
+	top:0px; 
+	padding-top: 10px;
+	background-color: orange;
+	width: auto;
+	height: auto;
+	left: 0px;
+	opacity: 0.8;
+	display: block;
+}
+
+/*try to delete undeline from texts*/
+li{
+	list-style: none;
+	opacity: 1,0;
+	display: inline-flex;
+	font-size: 200%;
+	
+}
+
+.logo{
+	
+	width:auto;
+	height: 80px;
+	padding:none;
+	position: relative;
+	top: 0px;
+	left: 0;
+ 	float: left;
+ 	z-index: 2;
+}
+
+a {
+	color: #2c87f0;
+	padding-bottom: 20px;
+	padding-left: 20px; 
+}
+
+h1{
+	font-size: 100px;
+	padding: 50px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #1744f0;
+}
+
+p{
+	color: black;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0.5%;
+  width:98%;
+  height: auto;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 24%;
+  max-width: 24%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+
+
+
+
+
+
+
+footer{
+	bottom:0px;
+	left: 0px;
+	right: 0px;
+	position:relative;
+	background-color: orange;
+	margin: 0;
+	width:90%;
+	padding: 5%;
+	font-family: 'Roboto Condensed';
+	color: #2c87f0;
+	line-height: 1.1;
+}
+
+footer>p{
+	color: #2c87f0;
+}
